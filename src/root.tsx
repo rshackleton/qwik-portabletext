@@ -1,4 +1,4 @@
-import { PortableText } from './components/qwik-portable-text/qwik-portable-text';
+import { Demo } from './components/demo/demo';
 
 type RootProps = {
   pkg: any;
@@ -12,7 +12,9 @@ export default (props: RootProps) => {
         <title>{`${props.pkg.name}@${props.pkg.version}`}</title>
       </head>
       <body>
-        <PortableText />
+        <main>
+          <Demo />
+        </main>
       </body>
     </>
   );
