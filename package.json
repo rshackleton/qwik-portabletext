@@ -36,6 +36,7 @@
   },
   "devDependencies": {
     "@builder.io/qwik": "0.16.2",
+    "@portabletext/toolkit": "^2.0.0",
     "@portabletext/types": "^2.0.0",
     "@types/eslint": "8.4.10",
     "@types/node": "^18.11.18",
