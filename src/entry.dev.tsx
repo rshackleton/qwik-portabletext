@@ -12,6 +12,8 @@
 import { render, RenderOptions } from '@builder.io/qwik';
 import Root from './root';
 
+import pkg from '../package.json';
+
 export default function (opts: RenderOptions) {
-  return render(document, <Root />, opts);
+  return render(document, <Root pkg={pkg} />, opts);
 }

@@ -1,11 +1,15 @@
 import { PortableText } from './components/qwik-portable-text/qwik-portable-text';
 
-export default () => {
+type RootProps = {
+  pkg: any;
+};
+
+export default (props: RootProps) => {
   return (
     <>
       <head>
         <meta charSet="utf-8" />
-        <title>Qwik Blank App</title>
+        <title>{`${props.pkg.name}@${props.pkg.version}`}</title>
       </head>
       <body>
         <PortableText />
