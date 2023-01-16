@@ -1,5 +1,4 @@
-import { Counter } from './components/counter/counter';
-import { Logo } from './components/logo/logo';
+import { PortableText } from './components/qwik-portable-text/qwik-portable-text';
 
 export default () => {
   return (
@@ -9,8 +8,7 @@ export default () => {
         <title>Qwik Blank App</title>
       </head>
       <body>
-        <Logo />
-        <Counter />
+        <PortableText />
       </body>
     </>
   );

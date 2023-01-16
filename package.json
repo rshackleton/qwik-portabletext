@@ -49,5 +49,13 @@
     "typescript": "4.9.4",
     "undici": "5.14.0",
     "vite": "4.0.3"
+  },
+  "prettier": {
+    "arrowParens": "always",
+    "printWidth": 100,
+    "semi": true,
+    "singleQuote": true,
+    "tabWidth": 2,
+    "trailingComma": "all"
   }
 }

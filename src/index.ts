@@ -1,2 +1,1 @@
-export { Logo } from './components/logo/logo';
-export { Counter } from './components/counter/counter';
+export { PortableText } from './components/qwik-portable-text/qwik-portable-text';
